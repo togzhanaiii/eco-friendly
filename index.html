@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECO-FRIENDLY</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>ECO-FRIENDLY</h1>
+        </div>
+        
+        <div class="login-form">
+            <input type="email" placeholder="Email address" class="input-field">
+            <input type="password" placeholder="Password" class="input-field">
+            <button class="btn-primary" onclick="login()">Login</button>
+            <button class="btn-secondary" onclick="showSignup()">Sign up</button>
+        </div>
+
+        <div class="signup-form" style="display: none;">
+            <input type="text" placeholder="Nickname" class="input-field">
+            <input type="email" placeholder="Email address" class="input-field">
+            <input type="password" placeholder="Create Password" class="input-field">
+            <input type="password" placeholder="Confirm Password" class="input-field">
+            <button class="btn-primary" onclick="showUserType()">Sign up</button>
+        </div>
+
+        <div class="user-type-form" style="display: none;">
+            <h2>Расти вместе с нами</h2>
+            <input type="text" placeholder="Ваше имя" class="input-field">
+            <select class="input-field">
+                <option>Курс обучения</option>
+                <option>1</option>
+                <option>2</option>
+            </select>
+            <input type="text" placeholder="Университет" class="input-field">
+            <input type="text" placeholder="Специальность" class="input-field">
+            <input type="tel" placeholder="Номер телефона" class="input-field">
+            <button class="btn-primary" onclick="window.location.href='home.html'">Зарегистрироваться</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
