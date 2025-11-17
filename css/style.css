@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: white;
+    color: #000;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+    padding-bottom: 80px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    color: #34C759;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.header h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.input-field {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #D1D1D6;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.input-field:focus {
+    border-color: #34C759;
+    outline: none;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 15px;
+    background: #34C759;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    width: 100%;
+    padding: 15px;
+    background: transparent;
+    color: #34C759;
+    border: 1px solid #D1D1D6;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    border-top: 1px solid #D1D1D6;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #8E8E93;
+    text-align: center;
+    font-size: 10px;
+    flex: 1;
+}
+
+.nav-item.active {
+    color: #34C759;
+    font-weight: 600;
+}
+
+/* Map Styles */
+.map-container {
+    margin: 20px 0;
+}
+
+.map-placeholder {
+    height: 400px;
+    background: #F2F2F7;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #6B6B6B;
+    position: relative;
+}
+
+.map-marker {
+    position: absolute;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Task Cards */
+.task-card {
+    background: white;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 10px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.task-title {
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.task-info {
+    color: #6B6B6B;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.task-points {
+    color: #34C759;
+    font-weight: 600;
+}
+
+/* Progress Bar */
+.progress-bar {
+    background: #E5E5EA;
+    border-radius: 3px;
+    height: 6px;
+    margin: 10px 0;
+}
+
+.progress-fill {
+    background: #34C759;
+    height: 100%;
+    border-radius: 3px;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    margin: 20px 0;
+    border-bottom: 1px solid #D1D1D6;
+}
+
+.tab {
+    padding: 10px 20px;
+    color: #6B6B6B;
+    cursor: pointer;
+}
+
+.tab.active {
+    color: #34C759;
+    border-bottom: 2px solid #34C759;
+}
+
+/* Table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #F2F2F7;
+}
+
+.user-row {
+    background: #F2F2F7;
+}
