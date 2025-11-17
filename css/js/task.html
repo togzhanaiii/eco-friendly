@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly - Tasks</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1># Tasks</h1>
+        </div>
+        
+        <div class="tabs">
+            <div class="tab active">Nearby</div>
+            <div class="tab">Top-rated</div>
+            <div class="tab">Completed</div>
+        </div>
+
+        <div class="tasks-list">
+            <div class="task-card">
+                <div class="task-title">Clean up park near Lenin St, 5</div>
+                <div class="task-info">Distance: 300 m</div>
+                <button class="btn-primary" onclick="takeTask(1)">Take task</button>
+            </div>
+
+            <div class="task-card">
+                <div class="task-title">Report full bin (Pushkn St, 7)</div>
+                <div class="task-points">+25 Points</div>
+                <div class="task-info">Status: In Progress</div>
+                <button class="btn-secondary">View</button>
+            </div>
+
+            <div class="task-card">
+                <div class="task-title">Remove illegal dump (Mira St, 12)</div>
+                <div class="task-points">+150 Points</div>
+                <button class="btn-primary" onclick="takeTask(3)">Take task</button>
+            </div>
+        </div>
+    </div>
+
+    <nav class="bottom-nav">
+        <a href="home.html" class="nav-item">🏠 Home</a>
+        <a href="tasks.html" class="nav-item active">📋 Tasks</a>
+        <a href="drones.html" class="nav-item">🚁 Cameras</a>
+        <a href="rating.html" class="nav-item">🏆 Rating</a>
+        <a href="profile.html" class="nav-item">👤 Profile</a>
+    </nav>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
